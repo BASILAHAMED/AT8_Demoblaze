@@ -1,5 +1,7 @@
 package com.at.factory;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -38,6 +40,7 @@ public class DriverFactory {
 
 		getDriver().manage().deleteAllCookies();
 		getDriver().manage().window().maximize();
+		getDriver().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		return getDriver();
 
 	}
