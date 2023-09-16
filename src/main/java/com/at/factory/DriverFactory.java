@@ -14,11 +14,11 @@ public class DriverFactory {
 	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 
 	/**
-	 * This method is used to initialize the threadlocal driver on the basis of given
+	 * This method is used to initialize the thradlocal driver on the basis of given
 	 * browser
 	 * 
 	 * @param browser
-	 * @return this will return thread local (tl) tldriver.
+	 * @return this will return tldriver.
 	 */
 	public WebDriver init_driver(String browser) {
 
@@ -33,7 +33,7 @@ public class DriverFactory {
 		} else if (browser.equals("safari")) {
 			tlDriver.set(new SafariDriver());
 		} else {
-			System.out.println("Please pass the correct browser value: " + browser);
+			System.out.println("Invalid browser value: " + browser);
 		}
 
 		getDriver().manage().deleteAllCookies();

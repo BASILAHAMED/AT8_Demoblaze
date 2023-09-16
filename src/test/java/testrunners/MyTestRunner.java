@@ -11,13 +11,11 @@ import io.cucumber.junit.CucumberOptions;
 		glue = {"stepdefinitions", "AppHooks"},
 		plugin = {"pretty",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-				"timeline:test-output-thread/"
-
-				
-		}
-		
+				"timeline:test-output-thread/"}	
 		)
 
-public class TestRunner {
+public class MyTestRunner {
 
 }
+
+// change the path 

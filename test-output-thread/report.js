@@ -1,0 +1,4 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([{"id":"3f706f1f-9316-4cf0-99d3-3d9b3dfbf298","feature":"Home page verification feature","scenario":"User verifies the home page of the demoblaze website","start":1694842176835,"group":1,"content":"","tags":"","end":1694842181831,"className":"passed"},{"id":"5a6be50a-8a66-4234-b8fd-8c8a14874264","feature":"User login feature","scenario":"Login with valid credentials","start":1694842181861,"group":1,"content":"","tags":"","end":1694842187667,"className":"passed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[main,5,main]"}]);
+});
