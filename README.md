@@ -1,5 +1,4 @@
-# AT8_Demoblaze - Automation Testing Task
-Thanks, GUVI Team
+## AT8_Demoblaze - Automation Testing Task
 
 ### Demoblaze Design Approach 
 Performed automation testing by implementing a BDD Design Pattern with a well-structured folder and dependency structure. Further HTML reports and Extent Spark Reports are generated rendering them an invaluable resource for thorough analysis. Adequate webdriver waits and exception-handling strategies are provided. This project can handle Cross Browser Testing like Chrome and Firefox Browsers. 
