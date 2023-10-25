@@ -11,6 +11,6 @@ Test Case #1 (Homepage Verification)
 Test Case #2 (Registration with valid data)
 Test Case #3 (User Login)
 Test Case #4 (Product Selection and Cart Interaction)
-Test Case #5(Placing an Order)
+Test Case #5 (Placing an Order)
 Test Case #6 (Logout)
 ```
